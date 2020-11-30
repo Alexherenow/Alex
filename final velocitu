@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "TO FIND THE FINAL VELOCITY "
+echo "Enter the initial velocity of the object :: "
+read u
+echo "Enter the acceleration of the object :: "
+read a
+echo "Enter the time duration of the object :: "
+read t
+
+vel=`expr $u + $a \* $t`
+echo "Velocity = " $vel
